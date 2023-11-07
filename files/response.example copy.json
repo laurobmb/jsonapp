@@ -1,0 +1,18 @@
+{
+    "hostname": "{{ server_name.stdout_lines }}",
+    "SO": "{{ server_version.stdout_lines }}",
+    "cpu_cores": "{{ server_cpu.stdout_lines }}",
+    "memory": "{{ server_mem.stdout_lines }} MB",
+    "IPV4": "{{ server_ip.stdout_lines }}",
+    "produto": "{{ WEB_VER.stdout_lines }}",
+    "ambiente": "{{ resultado.msg }}",
+    "console": "{{ console.msg }}",
+    "profile": "{{ product_profile.msg }}",
+    "autenticacao": "{{ resultado_ldap.msg }}",
+    "fix": "{{ FIX_WEB.stdout_lines }}",
+    "dir_install": "{{ product_path.msg }}",
+    "RDI": "nao coletada",
+    "Vertical": "nao coletada",
+    "data": "{{ data_server.stdout_lines }}"
+    }
+  

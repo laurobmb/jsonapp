@@ -1,0 +1,18 @@
+{
+    "hostname": "web3",
+    "SO": "redhat",
+    "cpu_cores": 4,
+    "memory": 4096,
+    "IPV4": "192.168.0.100",
+    "produto": "webserver",
+    "ambiente": "prod",
+    "console": "production",
+    "profile": "dev",
+    "autenticacao": "htpasswd",
+    "fix": 837428972394,
+    "dir_install": "/opt/apache",
+    "RDI": "nao coletada",
+    "Vertical": "nao coletada",
+    "data": "06/11/2023"
+}
+  

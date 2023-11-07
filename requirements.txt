@@ -1,0 +1,10 @@
+requests
+aiofiles
+python-json-logger
+python-multipart
+starlette
+fastapi
+uvicorn
+confluent-kafka
+confluent-kafka[avro]
+
