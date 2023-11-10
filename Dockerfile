@@ -4,7 +4,7 @@ RUN pip install --upgrade pip
 WORKDIR /app
 COPY requirements.txt /app
 RUN python -m pip install -r requirements.txt 
-COPY app.py /app
+COPY . /app
 EXPOSE 8000
 ENV DEBUG=1
 #CMD [ "python", "app.py" ]

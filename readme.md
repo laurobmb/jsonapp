@@ -12,6 +12,7 @@ Web App for receive json post from clients, this app is using fastapi as core co
 
 ### Run from Quay
     podman run -it --rm --name jsonapp -p8000:8000 quay.io/lagomes/jsonapp:latest
+    podman run -d -it --name jsonapp -p8000:8000 quay.io/lagomes/jsonapp:latest
 
 ## Post json sample
     curl -X POST -H "Content-Type: application/json" -d @files/response.example.json 127.0.0.1:8000 | jq
